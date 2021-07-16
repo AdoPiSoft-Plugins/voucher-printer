@@ -2,7 +2,8 @@
 ==========================
 * Fix subscription rate value printable voucher ui glitch
 * Fix voucher expiration pdf printable ui issue
-
+* Add voucher preview in the voucher printer setting
+* Persist voucher template changes after reinstalling or updating
 
 ----
 
