@@ -3,20 +3,21 @@
   "version": "1.0.0",
   "description": "Voucher Printer & QR generator for AdoPiSoft Hotspot",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "python $APPDIR/python-scripts/plugin-postinstall.py $(basename $(pwd)) $(pwd)"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org/adopisowifi/voucher-printer.git"
-  },
-  "keywords": [
-    "voucher-printer"
-  ],
+  "repository": "git@github.com:AdoPiSoft-Plugins/voucher-printer.git",
   "author": "arnel.lenteria@gmail.com",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/adopisowifi/voucher-printer#readme",
+  "metadata": {
+    "admin": {
+      "navigation": [
+        {
+          "parentstate": "plugins",
+          "icon": "fa fa-qrcode",
+          "text": "Voucher Printer",
+          "href": "plugins.voucher_printer"
+        }
+      ]
+    }
+  },
   "dependencies": {
     "qrcode": "^1.4.4"
   }
